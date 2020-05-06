@@ -1,0 +1,70 @@
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: #EAEDED;
+}
+
+.chatWindow {
+    width: 600px;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.chat {
+    height: 90%;
+    padding: 20px 20px;
+}
+
+.chat h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.meMessage {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.meMessage_block {
+    max-width: 300px;
+    margin: 5px 0;
+    border-radius: 12px;
+    padding: 8px 15px;
+    background-color: #AED6F1;
+    position: relative;
+}
+
+.himMessage {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.himMessage_block {
+    max-width: 300px;
+    margin: 5px 0;
+    border-radius: 12px;
+    padding: 8px 15px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.sendBlock {
+    height: 10%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.sendBlock input {
+    width: 520px;
+    height: 40px;
+    border: 1px solid #EAECEE;
+    padding: 0 10px;
+}
+
+.sendBlock button {
+    background: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
