@@ -25,3 +25,10 @@ npm run start
 ```
 npm run server
 ```
+
+<p>Routing</p>
+
+```
+"/" - User
+"/admin" - Admin
+```
